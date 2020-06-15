@@ -1,0 +1,1 @@
+const backToTheTop={init(){document.addEventListener("DOMContentLoaded",function(){window.onscroll=function(e){document.getElementById("cBack").className=window.pageYOffset>100?"cBack cVisible":"cBack cInvisible"}})}};export default backToTheTop;

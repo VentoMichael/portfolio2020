@@ -1,0 +1,1 @@
+const menu={init(){this.t=document.querySelector("body"),this.e=document.querySelector(".menu-icon"),this.n=document.querySelectorAll(".nav__list-item"),this.e.addEventListener("click",()=>((t,e)=>{this.t.classList.contains(e)?this.t.classList.remove(e):this.t.classList.add(e)})(this.t,"nav-not_active--current"))}};export default menu;

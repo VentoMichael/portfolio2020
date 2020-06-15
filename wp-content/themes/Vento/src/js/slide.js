@@ -1,0 +1,1 @@
+const slide={init(){this.slideIndex=1,this.n=0,this.x=document.getElementsByClassName("mySlides"),this.slideIndex+=this.n,this.n>this.x.length&&(this.slideIndex=1),this.n<1&&(this.slideIndex=this.x.length);for(let s=0;s<this.x.length;s++)this.x[s].style.display="none";this.x[this.slideIndex-1].style.display="flex"}};export default slide;
