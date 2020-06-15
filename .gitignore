@@ -1,0 +1,14 @@
+*
+!.gitignore
+!wp-content
+wp-content/*
+!wp-content/themes
+wp-content/themes/*
+!wp-content/themes/courswp
+wp-content/themes/courswp/assets
+wp-content/themes/courswp/node_modules
+/node_modules
+.gitignore
+/.idea
+/dist
+mix-manifest.json
